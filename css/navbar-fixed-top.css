@@ -191,3 +191,18 @@ section.blu.webdev {
     background: url(../img/webdev-bg.png);
 }
 
+
+
+
+
+.news_c h1 {font-weight:bold;font-family: "方正兰亭准黑_GBK", Arial, sans-serif;font-size:14px;line-height:130%;}
+.news_c h1 span {font-size:12px;font-weight:normal;}
+.news_c dl {width:170px;float:left;margin-right:16px;}
+.news_c dl.rightsquare {margin:0;}
+.news_c dl dt {width:170px;height:64px;}
+.news_c dl dd {font-size:12px;line-height:160%;margin-top:8px;}
+.news_c dl dd a {color:#666;}
+.news_right a {display:block;width:90%;background:#c3c3c3 url(../images/arrow.png) no-repeat center 135px;text-align:center;color:#34312d;line-height:30px;font-size:13px;padding:95px 0;float:right;}
+.news_right a:hover {text-decoration: none;background:#b6b5b5 url(../images/arrow.png) no-repeat center 135px;}
+.news_left {padding:5px 0 10px 40px;}
+
