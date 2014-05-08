@@ -4471,6 +4471,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
     margin-left: 0;
   }
+    .container > .nav-pills {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
 }
 
 .navbar-static-top {
@@ -5285,6 +5289,9 @@ a.list-group-item.active > .badge,
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+  }
+  .container .links {
+      margin-left:-60px;
   }
 }
 
@@ -6228,7 +6235,7 @@ button.close {
 .popover {
   position: absolute;
   top: 638px!important;
-  left: 245px!important;
+  left: 230px!important;
   z-index: 1010;
   display: none;
   max-width: 1300px;
@@ -6559,6 +6566,18 @@ button.close {
     max-width: 992px;
     margin: 0 auto;
 }
+.carousel-caption3 {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
 
 .carousel-caption .btn {
   text-shadow: none;
@@ -6614,6 +6633,27 @@ button.close {
   .carousel-caption2 span {
       font-size:12px;
   }
+    .carousel-caption3 {
+        left: 65%;
+        top: 57%;
+        color: #000;
+        font-family: "方正兰亭准黑_GBK", Arial, sans-serif;
+        line-height: 90%;
+    }
+    .carousel-caption3 h3 {
+        font-size:28px;
+        line-height:120%;
+        padding-top:10px;
+        background:url(../images/bannerline.jpg) no-repeat left top;
+    }
+    .carousel-caption3 h4 {
+        font-size:20px;
+        font-weight:600;
+        font-family: "方正兰亭准黑_GBK", Arial, sans-serif;
+    }
+    .carousel-caption3 span {
+        font-size:12px;
+    }
 }
 
 .clearfix:before,

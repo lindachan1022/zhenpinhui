@@ -42,159 +42,12 @@ body {
 
 
 /*commend*/
-.commend {background:url("../images/commendbg.jpg") repeat;padding-top:7px;}
-
-.clienti-titolo {
-    margin-top: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.row.clienti {
-    background: #c7c9c8;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    margin: 0;
-    border-bottom: solid 2px #c7c9c8;
-    border-right: solid 1px #c7c9c8;
-}
-
-.clienti .col-md-2 {
-    padding: 0;
-    border-top: solid 1px #c7c9c8;
-    border-left: solid 1px #c7c9c8;
-    overflow: hidden;
-}
-
-.pannello {
-    float: left;
-    width: 100%;
-    height: auto;
-    padding-bottom: 100%;
-    margin: 0;
-    position: relative;
-    font-size: .8em;
-    -webkit-perspective: 600px;
-    -moz-perspective: 600px;
-}
-
-/* -- make sure to declare a default for every property that you want animated -- */
-/* -- general styles, including Y axis rotation -- */
-
-
-.pannello .front {
-    float: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
-    z-index: 9;
-    width: inherit;
-    height: 100%;
-    background: #fff;
-    text-align: center;
-    -webkit-transform: rotateX(0deg) rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
-    -moz-transform: rotateX(0deg) rotateY(0deg);
-    -moz-transform-style: preserve-3d;
-    -moz-backface-visibility: hidden;
-    /* -- transition is the magic sauce for animation -- */
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    transform-style: flat;
-    }
-
-.pannello.flip .front {
-    z-index: 9;
-    border-color: #eee;
-    background: #d8dddc;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-}
-
-.pannello .back {
-    float: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 8;
-    width: inherit;
-    height: 100%;
-    background: #424b51;
-    color: #fff;
-    text-align: center;
-    -webkit-transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
-    -moz-transform: rotateY(-180deg);
-    -moz-transform-style: preserve-3d;
-    -moz-backface-visibility: hidden;
-    /* -- transition is the magic sauce for animation -- */
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.pannello.flip .back {
-    z-index: 10;
-    background: #5c91b5;
-    -webkit-transform: rotateX(0deg) rotateY(0deg);
-    -moz-transform: rotateX(0deg) rotateY(0deg);
-}
-
-.pannello .front .pad {
-    width: 100%;
-    height: auto;
-}
-
-.pannello img {
-    width: 100%;
-    height: auto;
-}
-
-.pannello .back h5 {
-    margin-top: 20px;
-    letter-spacing: 0;
-    font-size: 14px;
-}
-
-.pannello .back p {
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 1.1em;
-}
-
-.pannello.cl-tu .front {
-    background: url(../img/avatar-placeholder.png) #eef3f7 no-repeat;
-    background-size: 100% 100%;
-    border: dashed 3px #c3d6e4;
-    border-bottom: solid 3px #c3d6e4;
-    height: 100%;
-}
-
-.pannello.cl-tu h3 {
-    margin-top: 36px;
-}
-
-.pannello.cl-tu p {
-    font-size: 16px;
-}
-
-section.blu.webdev {
-    background: url(../img/webdev-bg.png);
-}
+.commend {background:url("../images/commendbg.jpg") repeat;padding:7px 0 32px 0;position:relative;}
 
 
 
 
-
+/*news*/
 .news_c h1 {font-weight:bold;font-family: "方正兰亭准黑_GBK", Arial, sans-serif;font-size:14px;line-height:130%;}
 .news_c h1 span {font-size:12px;font-weight:normal;}
 .news_c dl {width:170px;float:left;margin-right:16px;}
@@ -206,3 +59,34 @@ section.blu.webdev {
 .news_right a:hover {text-decoration: none;background:#b6b5b5 url(../images/arrow.png) no-repeat center 135px;}
 .news_left {padding:5px 0 10px 40px;}
 
+/*guide*/
+.std {height:146px;width:146px;display: block;padding-left:0;}
+.std a {height:146px;width:146px;display: block;color:#333;}
+.std a:hover {text-decoration: none;}
+.swhite {background:#fff;}
+.swr {text-align: right;color:#333;font-family: "微软雅黑", Arial, sans-serif;font-weight:600;}
+.swr p {padding:12px 0 5px 0;line-height:18px;border-bottom:1px solid #333;font-size: 13px;margin:0 15px;}
+.swr p.stitle {font-size:12px;line-height:14px;border:none;}
+.swl {text-align: left;color:#333;font-family: "微软雅黑", Arial, sans-serif;font-weight:600;}
+.swl p {padding:12px 0 5px 0;line-height:18px;border-bottom:1px solid #333;font-size: 13px;margin:0 15px;}
+.swl p.stitle  {font-size:12px;line-height:14px;border:none;}
+.sgray {background:#e6e6e6;}
+.sgimg {padding-left:0;}
+.ml {margin-left:-1px;}
+
+
+
+
+#layer{
+    max-width:600px;
+    max-height:550px;
+    border:10px solid #fff;
+    position:fixed;
+    _position:absolute;    /* 勉强应付 IE6 */
+    top:50%;
+    right:50%;
+    margin:-150px -300px 0 0;
+    display:none;    /* 默认不显示 */
+    z-index:9999;
+}
+#layer img {width:100%;cursor: pointer;}
