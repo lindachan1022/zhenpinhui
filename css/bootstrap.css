@@ -6234,8 +6234,8 @@ button.close {
 
 .popover {
   position: absolute;
-  top: 638px!important;
-  left: 230px!important;
+  top: 0;
+  left: 0;
   z-index: 1010;
   display: none;
   max-width: 1300px;
@@ -6286,7 +6286,7 @@ button.close {
 .popover .arrow,
 .popover .arrow:after {
   position: absolute;
-  display: none;
+  display: block;
   width: 0;
   height: 0;
   border-color: transparent;
